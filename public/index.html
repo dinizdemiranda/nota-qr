@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form id='post-form' class='post-form' method='post'>
+        <label for='input'>Selecione as notas: </label>
+        <input id='input' type='file' multiple/>
+        <output id='result' />
+      </form>
+      <div id="notas-validas"></div>
+
+      <div id="legenda"></div>
+      <img id="output">
+      <canvas id="canvas" style="display:none"></canvas>
+
+      <BR>
+        <div id="download-btn"></div>
+<!--         
+      <button onClick="exportCSVFile(headers, notas, fileTitle)" id="download">
+        <p>Download Demo CSV File</p>
+      </button> -->
+
+<script src="javascript/jsQR.js"></script>
+
+<script src="javascript/dados-m.js"></script>
+<script src="javascript/csv.js"></script>
+
+</body>
+</html>

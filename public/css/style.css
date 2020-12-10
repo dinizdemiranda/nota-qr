@@ -1,0 +1,39 @@
+* {
+    font-family: sans-serif;
+}
+
+#notas-validas img {
+    max-width: 50px;
+    max-height: 50px;
+    margin: 5px;
+}
+
+#notas-validas {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+}
+
+.info-nota {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    column-gap: 20px;
+    padding: 5px;
+    background: lightgray;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.info-nota a, #download-btn a {
+    border-radius: 4px;
+    padding: 5px;
+    border: none;
+    color: white;
+    background: rgb(86, 152, 228);
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
